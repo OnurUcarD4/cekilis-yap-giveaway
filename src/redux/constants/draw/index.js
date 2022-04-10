@@ -1,0 +1,2 @@
+export const SET_SELECTED_LUCKY = "SET_SELECTED_LUCKY";
+export const SET_DRAW_TITLE = "SET_DRAW_TITLE";

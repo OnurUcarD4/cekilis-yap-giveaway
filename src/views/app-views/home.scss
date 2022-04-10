@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+.header{
+    @apply bg-black opacity-50 hidden lg:block;
+    .header-wrapper{
+        @apply justify-between flex items-center;
+        .header-logo{
+            @apply hover:opacity-30 duration-300 cursor-pointer ml-5;
+        }
+        .header-menu{
+            @apply text-white mr-6 hover:opacity-30 duration-300 cursor-pointer text-lg font-semibold  tracking-wider;
+        }
+    }
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.maintain{
+    @apply shadow-xl md:mt-10 xl:mt-0;
+    font-family: 'Oswald', sans-serif;
+    background-color: rgba(63, 63, 63, 0.356);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    .maintain-wrapper{
+        @apply text-white flex flex-col;
+        #lucky-list{
+            @apply bg-white resize-none outline-none rounded-sm border-2 border-black p-2 tracking-wide text-black shadow-md  duration-500 hover:border-gray-400 text-lg;
+        }
+        #giveaway-name{
+            @apply bg-white resize-none outline-none rounded-sm border-2 border-black p-2 tracking-wide text-black shadow-md  duration-500 hover:border-gray-400; 
+        }
+        .giveaway-button{
+            @apply mt-4 rounded-sm bg-green-600 p-2 hover:bg-green-700 duration-300 w-full;
+        }
+    }
+   
+}
