@@ -1,2 +1,4 @@
-<a href="https://cekilis-yap.netlify.app">DEMO<a/>
- <h1> It's basic giveaway project with React,Redux,Tailwind,SCSS. <h1>
+<a href="https://cekilis-yap.netlify.app">Live Demo<a/>
+ <hr>
+ <h3> Used techs <h3>
+  React, Redux, Tailwind, SCSS.
